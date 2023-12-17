@@ -9,5 +9,9 @@ public class Bloqueralentisador : Bloque
     {
         resistencia = 2; 
     }
+    public override void rebotarbola()
+    {
+        base.rebotarbola();
+    }
 
 }

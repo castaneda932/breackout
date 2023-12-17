@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4492983213404595942}
   - component: {fileID: 3478003594828489925}
   - component: {fileID: 2598279842003915598}
-  - component: {fileID: 207867465063631724}
   - component: {fileID: 4836527982186820459}
   m_Layer: 0
   m_Name: bloque_ralentisador
@@ -101,19 +100,6 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2598279842003915598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4764378539593458309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe58bb13200d0d4d95aa6f01ca124a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resistencia: 1
---- !u!114 &207867465063631724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
