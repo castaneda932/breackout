@@ -9,6 +9,12 @@ public class Bloqueexplosivo : Bloque
     {
         resistencia = 1;
     }
+    public override void rebotarbola()
+    {
+        base.rebotarbola();
+    }
 
-    
+
+
+
 }
