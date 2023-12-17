@@ -9,8 +9,14 @@ public class bloquepiedra : Bloque
     {
         resistencia = 5;
     }
+    public override void rebotarbola()
+    {
+        base.rebotarbola();
+    }
 
-   
-    
-    
+
+
+
+
+
 }

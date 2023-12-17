@@ -10,6 +10,10 @@ public class Bloquemadera : Bloque
         resistencia = 3;
     }
 
-   
+    public override void rebotarbola()
+    {
+        base.rebotarbola();
+    }
+
 
 }
